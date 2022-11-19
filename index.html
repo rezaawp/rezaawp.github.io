@@ -9,6 +9,13 @@
 
         <title>Portfolio Reza WP</title>
 
+         <!-- UIkit CSS -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css" />
+
+         <!-- UIkit JS -->
+         <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+         
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
@@ -23,6 +30,7 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
 
         <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+
 
 <!--
 
@@ -100,13 +108,13 @@ https://templatemo.com/tm-578-first-portfolio
                         <div class="col-lg-7 col-12">
                             <div class="hero-text">
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                    <img src="images/happy-bearded-young-man.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
+                                    <img src="images/rezawp.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
 
-                                    <h1 class="hero-title ms-3 mb-0">Hello friend!</h1>
+                                    <h1 class="hero-title ms-3 mb-0">Hai Teman!</h1>
                                 </div>
 
-                                <h2 class="mb-4">I’m available for freelance work.</h2>
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
+                                <h2 class="mb-4" style="letter-spacing: -1px;">Saya adalah freelance programmer</h2>
+                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Kenalan Yuk</a></p>
                             </div>
                         </div>
 
@@ -118,6 +126,11 @@ https://templatemo.com/tm-578-first-portfolio
                     </div>
                 </div>
 
+                <style>
+                    svg {
+                        max-width: none !important;
+                    }
+                </style>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#535da1" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
             </section>
 
@@ -136,7 +149,7 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
                                     <h2 class="text-white me-4 mb-0" style="letter-spacing: 0.1px;">Cerita Saya</h2>
 
-                                    <img src="images/happy-bearded-young-man.jpg" class="avatar-image img-fluid" alt="">
+                                    <img src="images/rezawp.jpg" class="avatar-image img-fluid" alt="">
                                 </div>
 
                                 <h3 class="pt-2 mb-3">Tentang Reza Khoirul WP</h3>
@@ -154,7 +167,7 @@ https://templatemo.com/tm-578-first-portfolio
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-6 col-12">
+                        <div class="col-12">
                             <div class="profile-thumb">
                                 <div class="profile-title">
                                     <h4 class="mb-0">Informasi</h4>
@@ -292,7 +305,7 @@ https://templatemo.com/tm-578-first-portfolio
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-8 col-md-8 col-12 ms-auto">
+                        <div class="col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                                 <img src="images/white-desk-work-study-aesthetics.jpg" class="avatar-image img-fluid" alt="">
 
@@ -301,19 +314,134 @@ https://templatemo.com/tm-578-first-portfolio
                         </div>
 
                         <div class="clearfix"></div>
+                        <!-- Start Modal Kuis -->
+                        <div id="modal-center" class="uk-flex-top" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
 
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                    <p class="text-center">Klik gambar untuk memperjelas gambar</p>
+                                    <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/login.png" data-caption="Halaman Login Kuis">
+                                                <img src="dokumentasi aplikasi/kuis/login.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/cara penulisan pembuatan soal tertulis.png" data-caption="Proses Pembuatan Soal Tertulis">
+                                                <img src="dokumentasi aplikasi/kuis/cara penulisan pembuatan soal tertulis.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/contoh soal tertuliis.png" data-caption="Contoh Soal Tertulis">
+                                                <img src="dokumentasi aplikasi/kuis/contoh soal tertuliis.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/pembuatan soal dinamis.png" data-caption="Proses Pembuatan Soal Pilihan Ganda">
+                                                <img src="dokumentasi aplikasi/kuis/pembuatan soal dinamis.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/pengerjaan soal.png" data-caption="Contoh Soal Pilihan Ganda">
+                                                <img src="dokumentasi aplikasi/kuis/pengerjaan soal.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/nilai setelah mengerjakan.png" data-caption="Nilai Setelah Mengerjakan Kuis">
+                                                <img src="dokumentasi aplikasi/kuis/nilai setelah mengerjakan.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/tidak dapat ditemukan.png" data-caption="Ketika Kuis Tidak Dapat Ditemukan">
+                                                <img src="dokumentasi aplikasi/kuis/tidak dapat ditemukan.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/kuis/sudah mengerjakan.png" data-caption="Ketika User Sudah Mengerjakan Kuis
+                                                <img src="dokumentasi aplikasi/kuis/sudah mengerjakan.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <!-- End Modal Kuis -->
+
+                        <!-- Start Modal Sosmed -->
+                        <div id="modal-sosmed" class="uk-flex-top" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                    <p class="text-center">Klik gambar untuk memperjelas gambar</p>
+                                    <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/postingan.png" data-caption="Halaman Postingan">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/postingan.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/dashboard postingan.png" data-caption="Proses Ketika Ingin Membuat Postingan">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/dashboard postingan.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/ketika menambahkan komen.png" data-caption="Menambahkan Komentar Ke Postingan Seseorang">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/ketika menambahkan komen.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/komentar sebagai dimas.png" data-caption="Ketika Menambahkan Komentar Dengan User Yang Berbeda">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/komentar sebagai dimas.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/ketika ada komentar yang di reply.png" data-caption="Ketika Ada Komentar Yang Di Reply">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/ketika ada komentar yang di reply.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <a class="uk-inline shadow" href="dokumentasi aplikasi/sosmed sederhana/replpy komentar.png" data-caption="Melihat Reply Komentar">
+                                                <img src="dokumentasi aplikasi/sosmed sederhana/replpy komentar.png" width="1800" height="1200" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <!-- End Modal Sosmed -->
+
+                        <!-- Start Card Kuis -->
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb" style="box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);
                             -webkit-box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);
                             -moz-box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);">
                                 <div class="projects-info">
-                                    <small class="projects-tag">Branding</small>
+                                    <small class="projects-tag">Edukasi</small>
 
-                                    <h3 class="projects-title">Zoik agency</h3>
+                                    <h3 class="projects-title">Kuis</h3>
                                 </div>
 
-                                <a href="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="popup-image">
-                                    <img src="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" style="border-radius: 20px;" class="img-fluid" alt="">
+                                <a href="#modal-center" uk-toggle>
+                                    <img src="dokumentasi aplikasi/kuis/pengerjaan soal.png" style="border-radius: 20px;" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Card Kuis -->
+
+                         <div class="col-lg-4 col-md-6 col-12">
+                            <div class="projects-thumb" style="box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);
+                            -webkit-box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);
+                            -moz-box-shadow: 1px 2px 15px -5px rgba(0,0,0,0.75);">
+                                <div class="projects-info">
+                                    <small class="projects-tag">Komunikasi</small>
+
+                                    <h3 class="projects-title">Sosmed Sederhana</h3>
+                                </div>
+
+                                <a href="#modal-sosmed" uk-toggle>
+                                    <img src="dokumentasi aplikasi/sosmed sederhana/postingan.png" style="border-radius: 20px;" class="img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -326,7 +454,7 @@ https://templatemo.com/tm-578-first-portfolio
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-6 col-md-8 col-12">
+                            <div class="col-12">
                                 <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                     <img src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg" class="avatar-image img-fluid" alt="">
 
@@ -460,9 +588,8 @@ https://templatemo.com/tm-578-first-portfolio
                     <div class="col-lg-12 col-12">
                         <div class="copyright-text-wrap">
                             <p class="mb-0">
-                                <span class="copyright-text">Copyright © 2022 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
-                                Design: 
-                                <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                                <span class="copyright-text">Dibuat dengan 👨‍💻 ❤️ 🎶 ☕ oleh <a href="#section_2">Reza Khoirul Wijaya Putra</a></span>
+                                <a rel="sponsored" href="#" target="_blank">All rights reserved.</a>
                             </p>
                         </div>
                     </div>
