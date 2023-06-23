@@ -7,9 +7,8 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(300)
-  .typeString("Saya adalah seorang <b>Freelance Developer</b>")
-  .pauseFor(300)
-  .deleteChars(19)
+  .typeString("I am a freelance developer.")
+  .deleteChars(20) // Menghapus karakter "freelance developer"
   .typeString("Junior Backend Developer.")
   .pauseFor(1000)
   .start();
